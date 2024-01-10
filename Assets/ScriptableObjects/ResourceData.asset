@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4829908229ede42b80efe33a336034, type: 3}
+  m_Name: ResourceData
+  m_EditorClassIdentifier: 
+  hudData: {fileID: 11400000, guid: 3c34e2e40eb398b4b84af6a349298d1a, type: 2}
+  NUM_RESOURCES: 10
+  usedResources: 9
+  growthRate: 0
+  environmentalResponsibility: 0
+  socialResponsibility: 9
+  longTermDevelopment: 0
+  growthRateColor: {r: 0.9568628, g: 0.5058824, b: 0.34509805, a: 1}
+  environmentalResponsibilityColor: {r: 0.3647059, g: 0.70980394, b: 0.16862746, a: 1}
+  socialResponsibilityColor: {r: 1, g: 0.854902, b: 0.37647063, a: 1}
+  longTermDevelopmentColor: {r: 0.13333334, g: 0.47450984, b: 0.7568628, a: 1}
