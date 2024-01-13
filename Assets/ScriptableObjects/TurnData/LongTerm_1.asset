@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fe17abaa4292a4e96909df109acc09, type: 3}
+  m_Name: LongTerm_1
+  m_EditorClassIdentifier: 
+  text_1: You announce plans to invest a substantial portion of revenue in a new
+    R&D hub, hiring scientists and innovators and giving them the time, space and
+    money to develop bright ideas for the long term.
+  text_2: You ramp up in-house innovation projects , based on strict criteria for
+    profitability and feasibility.
+  text_3: You devote some money to funding innovative start-ups, figuring you can
+    always buy them out if they develop a promising product.
+  text_4: 'FlexBird is relentlessly focused on the short-term: you announce that
+    any initiatives that do not generate returns within a year will be discontinued'
+  resourceAllocated_1: 5
+  resourceAllocated_2: 4
+  resourceAllocated_3: 2
+  resourceAllocated_4: 0
+  investorScore_1: 1
+  investorScore_2: 1
+  investorScore_3: 0.5
+  investorScore_4: 0
+  stkScore_1: 0
+  stkScore_2: 0
+  stkScore_3: 0
+  stkScore_4: 0
+  turn: 1

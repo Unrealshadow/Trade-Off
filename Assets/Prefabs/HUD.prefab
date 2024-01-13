@@ -1056,7 +1056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3807200082259064262}
   - component: {fileID: 1290300255384084569}
-  - component: {fileID: 5395750827799808971}
+  - component: {fileID: 5809853622926298913}
   m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
@@ -1092,7 +1092,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3977135887740325556}
   m_CullTransparentMesh: 1
---- !u!114 &5395750827799808971
+--- !u!114 &5809853622926298913
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1101,13 +1101,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 3977135887740325556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e40dd3f4ef4994d40858cffee2b5c2fd, type: 3}
+  m_Script: {fileID: 11500000, guid: b1d7e3de8d063094fa1c1ce3d235b6fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  investorsValue: {fileID: 5431122799805905052}
+  gameManager: {fileID: 0}
+  uiManager: {fileID: 0}
+  resourceManager: {fileID: 0}
+  investorValue: {fileID: 5431122799805905052}
   stakeHolderValue: {fileID: 4706364317155257790}
-  resourcesValue: {fileID: 8778317099634221783}
-  hudData: {fileID: 11400000, guid: 3c34e2e40eb398b4b84af6a349298d1a, type: 2}
+  resourceValue: {fileID: 8778317099634221783}
 --- !u!1 &4354515558946972052
 GameObject:
   m_ObjectHideFlags: 0

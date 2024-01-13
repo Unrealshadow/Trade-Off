@@ -337,7 +337,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 350, y: 100}
+  m_SizeDelta: {x: 320, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &7123732287137408847
 CanvasRenderer:
@@ -394,8 +394,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1483,7 +1483,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 350, y: 100}
+  m_SizeDelta: {x: 320, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &2619672099742777516
 CanvasRenderer:
@@ -1542,8 +1542,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2325,7 +2325,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 350, y: 100}
+  m_SizeDelta: {x: 320, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &8142228582839919154
 CanvasRenderer:
@@ -2384,8 +2384,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2612,7 +2612,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 350, y: 100}
+  m_SizeDelta: {x: 320, y: 100}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &5647981102053656969
 CanvasRenderer:
@@ -2669,8 +2669,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3822,8 +3822,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5385,7 +5385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 166913269090992857}
   - component: {fileID: 3180130852603581881}
-  - component: {fileID: 565150827302221672}
+  - component: {fileID: 8548334737994876276}
   m_Layer: 5
   m_Name: ResourceAllocationOverview
   m_TagString: Untagged
@@ -5421,7 +5421,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5377534494327518240}
   m_CullTransparentMesh: 1
---- !u!114 &565150827302221672
+--- !u!114 &8548334737994876276
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5430,55 +5430,57 @@ MonoBehaviour:
   m_GameObject: {fileID: 5377534494327518240}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d889643eb75a694ca3306bbae37a1b0, type: 3}
+  m_Script: {fileID: 11500000, guid: 0362f40eafa097c40be72529684606c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  growthResourceUsed:
-  - {fileID: 7701324684365310107}
-  - {fileID: 4722645403294596429}
-  - {fileID: 758375930109015767}
-  - {fileID: 5349537418136303954}
-  - {fileID: 6156918504797178173}
-  - {fileID: 7338393779140053121}
-  - {fileID: 160204793701888426}
-  - {fileID: 6594279375097591640}
-  - {fileID: 934518996434173637}
-  - {fileID: 2082504754514334068}
-  environmentResourceUsed:
-  - {fileID: 5440444630330665906}
-  - {fileID: 3720077776429278809}
-  - {fileID: 4453466760700760334}
-  - {fileID: 9084333133599983335}
-  - {fileID: 6843094996320534070}
-  - {fileID: 2576303704442978448}
-  - {fileID: 6148518488321746991}
-  - {fileID: 4087644099035228910}
-  - {fileID: 8814470058094881614}
-  - {fileID: 1455190431830730289}
-  socialResourceUsed:
-  - {fileID: 7745496470301247171}
-  - {fileID: 6575157489482335273}
-  - {fileID: 2838935050165779938}
-  - {fileID: 4114550167429742496}
-  - {fileID: 1284159576763875060}
-  - {fileID: 109643561842301643}
-  - {fileID: 806982844627536056}
-  - {fileID: 6581052661252846010}
-  - {fileID: 7253871778925042950}
-  - {fileID: 263265401619337127}
-  longTermDevelopmentResourceUsed:
-  - {fileID: 6980416815455807124}
-  - {fileID: 5996118160880173444}
-  - {fileID: 7468794809142075851}
-  - {fileID: 7356659707797678469}
-  - {fileID: 628221867993944563}
-  - {fileID: 7091892115619814046}
-  - {fileID: 683149669728748469}
-  - {fileID: 1543720224404112690}
-  - {fileID: 8574695184530075544}
-  - {fileID: 4406278972319193915}
+  gameManager: {fileID: 0}
+  resourceManager: {fileID: 0}
+  uiManager: {fileID: 0}
+  growthRateImg:
+  - {fileID: 5458809336683338662}
+  - {fileID: 4449192290293356336}
+  - {fileID: 626712634162027707}
+  - {fileID: 2272471524499630026}
+  - {fileID: 5730768473467053728}
+  - {fileID: 8783784645698652611}
+  - {fileID: 279826301872959603}
+  - {fileID: 2697871383982562863}
+  - {fileID: 7807380477689386923}
+  - {fileID: 942988806316563114}
+  environmentalImg:
+  - {fileID: 776379905937371899}
+  - {fileID: 3428687186791405186}
+  - {fileID: 629345574722731161}
+  - {fileID: 921190601244908060}
+  - {fileID: 1486436386320425856}
+  - {fileID: 8092760761627524414}
+  - {fileID: 3715973951100710189}
+  - {fileID: 5617156936266902199}
+  - {fileID: 1924698599922413301}
+  - {fileID: 2836663707507178268}
+  socialImg:
+  - {fileID: 7440293990922387024}
+  - {fileID: 1690147629107675335}
+  - {fileID: 4945263794030024356}
+  - {fileID: 5456473679220602075}
+  - {fileID: 3424570399085584563}
+  - {fileID: 4854495804319153038}
+  - {fileID: 4315664807923392852}
+  - {fileID: 1301364217709168051}
+  - {fileID: 1034568570204566157}
+  - {fileID: 3971032447810748661}
+  longTermImg:
+  - {fileID: 3871627295149678325}
+  - {fileID: 4178861078138444305}
+  - {fileID: 2869119549096799526}
+  - {fileID: 2531210282071166248}
+  - {fileID: 7722947264941510204}
+  - {fileID: 2279248829526867726}
+  - {fileID: 8666128009383574988}
+  - {fileID: 4548264599320752603}
+  - {fileID: 6031362995404617236}
+  - {fileID: 3211988430222722934}
   nextBtn: {fileID: 6558312107451562541}
-  resourceData: {fileID: 11400000, guid: cc279fc0a45069d4a83833f0aef7b3c8, type: 2}
 --- !u!1 &5440444630330665906
 GameObject:
   m_ObjectHideFlags: 0

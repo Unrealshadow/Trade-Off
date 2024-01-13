@@ -2,24 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Gamemanager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    public static Gamemanager Instance;
-
+    public bool isGameOver = false;
     public int currentTurn = 1;
-
-    private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-    }
-
-    public void NextTurn()
-    {
-        if(currentTurn < 5)
-        currentTurn++;
-    }
-
+    public int totalTurns = 4;
 }

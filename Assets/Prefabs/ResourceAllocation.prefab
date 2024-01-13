@@ -5429,7 +5429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4511755685789599837}
   - component: {fileID: 5445575418794913836}
-  - component: {fileID: 852341733485233421}
+  - component: {fileID: 4670684063546721159}
   m_Layer: 5
   m_Name: ResourceAllocation
   m_TagString: Untagged
@@ -5466,7 +5466,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6456148051613388126}
   m_CullTransparentMesh: 1
---- !u!114 &852341733485233421
+--- !u!114 &4670684063546721159
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5475,13 +5475,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 6456148051613388126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a114a6fcec133da47991cd32f9bc847f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bdcf552aeeb26f4b997788d6c76ad8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resourceAllocationContainer: {fileID: 6866356525035915541}
-  resourceData: {fileID: 11400000, guid: cc279fc0a45069d4a83833f0aef7b3c8, type: 2}
-  hudData: {fileID: 11400000, guid: 3c34e2e40eb398b4b84af6a349298d1a, type: 2}
-  resourceDiamonds:
+  gameManager: {fileID: 0}
+  resourceManager: {fileID: 0}
+  uiManager: {fileID: 0}
+  dataResourceAllocation: {fileID: 11400000, guid: 426451ed27fee9f498804ba0259c5d33, type: 2}
+  allocatedResourcesImg:
   - {fileID: 1045320323731034327}
   - {fileID: 2612764949943190211}
   - {fileID: 596832603436996717}
@@ -5492,21 +5493,19 @@ MonoBehaviour:
   - {fileID: 661938253447607217}
   - {fileID: 8119168733082796947}
   - {fileID: 1238108952190542186}
-  resourceOrder: 
-  originalColor: {r: 0.3254902, g: 0.33333334, b: 0.34901962, a: 1}
-  growthRateAddButton: {fileID: 1461298302056113384}
-  growthRateSubtractButton: {fileID: 1763270900329839815}
-  growthRateText: {fileID: 3210213286159379248}
-  environmentalAddButton: {fileID: 4609841429707036233}
-  environmentalSubtractButton: {fileID: 1954505143604806128}
-  environmentalText: {fileID: 160910353317089624}
-  socialAddButton: {fileID: 3809601665313046328}
-  socialSubtractButton: {fileID: 2666667539012171013}
-  socialText: {fileID: 3824993901115957600}
-  longTermAddButton: {fileID: 5710460796605864732}
-  longTermSubtractButton: {fileID: 6892839518131219195}
-  longTermText: {fileID: 5775604795210058052}
-  submitButton: {fileID: 2370883971307233905}
+  nextBtn: {fileID: 2370883971307233905}
+  growthValueText: {fileID: 3210213286159379248}
+  environmentalValueText: {fileID: 160910353317089624}
+  socialValueText: {fileID: 3824993901115957600}
+  longTermValueText: {fileID: 5775604795210058052}
+  addGrowthRateBtn: {fileID: 1461298302056113384}
+  subGrowthRateBtn: {fileID: 1763270900329839815}
+  addEnvironmentalBtn: {fileID: 4609841429707036233}
+  subEnvironmentalBtn: {fileID: 1954505143604806128}
+  addSocialBtn: {fileID: 3809601665313046328}
+  subSocialBtn: {fileID: 2666667539012171013}
+  addLongTermBtn: {fileID: 5710460796605864732}
+  subLongTermBtn: {fileID: 6892839518131219195}
 --- !u!1 &6523874391197199979
 GameObject:
   m_ObjectHideFlags: 0

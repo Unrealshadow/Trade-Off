@@ -1,51 +1,43 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
+using System.Collections.Generic;
 public class UIManager : MonoBehaviour
 {
-    public static UIManager instance;
+    private readonly Dictionary<string, GameObject> uiElements = new Dictionary<string, GameObject>();
+    [SerializeField] private List<GameObject> uiElementsList = new List<GameObject>();
 
-    public List<GameObject> uiList = new List<GameObject>();
-    public Dictionary<string, GameObject> uiDictionary = new Dictionary<string, GameObject>();
-
+    // Register UI elements
     private void Awake()
     {
-        instance = this;
-        AddUI();
-        EnableSpecificUI("MainMenu");
-    }
-
-    public void AddUI()
-    {
-        foreach (GameObject ui in uiList)
+        foreach (GameObject uiElement in uiElementsList)
         {
-            uiDictionary[ui.name] = ui;
+            uiElements.Add(uiElement.name, uiElement);
+        }
+    }
+    // Enable UI based on the UI name
+    public void EnableUI(string uiName)
+    {
+        if (uiElements.TryGetValue(uiName, out GameObject uiElement))
+        {
+            uiElement.SetActive(true);
+            Debug.Log($"UI '{uiName}' enabled.");
+        }
+        else
+        {
+            Debug.LogWarning($"UI '{uiName}' not found.");
         }
     }
 
-    public void EnableSpecificUI(string UIName)
+    // Disable UI based on the UI name
+    public void DisableUI(string uiName)
     {
-        foreach (KeyValuePair<string, GameObject> entry in uiDictionary)
+        if (uiElements.TryGetValue(uiName, out GameObject uiElement))
         {
-            if (entry.Key == UIName)
-            {
-                entry.Value.SetActive(true);
-                break;
-            }
+            uiElement.SetActive(false);
+            Debug.Log($"UI '{uiName}' disabled.");
+        }
+        else
+        {
+            Debug.LogWarning($"UI '{uiName}' not found.");
         }
     }
-
-    public void DisableSpecificUI(string UIName)
-    {
-        foreach (KeyValuePair<string, GameObject> entry in uiDictionary)
-        {
-            if (entry.Key == UIName)
-            {
-                entry.Value.SetActive(false);
-                break;
-            }
-        }
-    }
-
 }

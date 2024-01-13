@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11fc132c11f004040a11bde8b5d3415f, type: 3}
+  m_Name: Data_Color
+  m_EditorClassIdentifier: 
+  meetingGrowthColor: {r: 0.95686275, g: 0.5058824, b: 0.34509805, a: 1}
+  environmentalResponsibilityColor: {r: 0.3647059, g: 0.70980394, b: 0.16862746, a: 1}
+  socialResponsibilityColor: {r: 1, g: 0.85490197, b: 0.3764706, a: 1}
+  longTermDevelopmentColor: {r: 0.1254902, g: 0.4745098, b: 0.75686276, a: 1}
+  turnActiveColor: {r: 0.101960786, g: 0.9254902, b: 1, a: 1}
+  turnNonActiveColor: {r: 0, g: 0.49019608, b: 0.5254902, a: 1}
+  notAllocatedColor: {r: 0.3254902, g: 0.33333334, b: 0.34901962, a: 1}

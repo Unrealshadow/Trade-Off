@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2a77d83f1c84c469193a4ae84d312d, type: 3}
+  m_Name: EnvironmentalResponsibility_1
+  m_EditorClassIdentifier: 
+  text_1: 'You intend to put your money where your mouth is: you pledge to change
+    your entire business model to become more environmentally friendly, and set aggressive
+    targets that will be externally audited.'
+  text_2: You divert FlexBird's lobbying money  into calls for climate change regulation,
+    even when the new rules could damage FlexBird's core business. You also set sustainability
+    targets that will be vetted by an external auditor.
+  text_3: You tout FlexBird's new 'sustainability performance targets', but draw
+    the line at getting them vetted by an external auditor because you don't want
+    be burdened by more compliance work.
+  text_4: Your complete disregard of environmental issues has caught the attention
+    of a few green groups, though they have done little so far.
+  resourceAllocated_1: 5
+  resourceAllocated_2: 4
+  resourceAllocated_3: 2
+  resourceAllocated_4: 0
+  investorScore_1: -0.5
+  investorScore_2: 0
+  investorScore_3: 0
+  investorScore_4: 0
+  stkScore_1: 1
+  stkScore_2: 0.5
+  stkScore_3: -0.5
+  stkScore_4: -1
+  turn: 1
