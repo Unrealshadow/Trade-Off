@@ -1,43 +1,84 @@
-using UnityEngine;
+using System;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
+
 public class UIManager : MonoBehaviour
 {
-    private readonly Dictionary<string, GameObject> uiElements = new Dictionary<string, GameObject>();
-    [SerializeField] private List<GameObject> uiElementsList = new List<GameObject>();
+    public static UIManager Instance { get; private set; }
 
-    // Register UI elements
+    public StartScreenUI startScreenUI;
+    public HUDUI hudUI;
+    public InstructionScreenUI instructionScreenUI;
+    public TurnUI turnUI;
+    public ResourceAllocationUI resourceAllocationUI;
+    public ResourceAllocationOverviewUI resourceAllocationOverviewUI;
+    public ResultUI resultUI;
+    public PostResultUI postResultUI;
     private void Awake()
     {
-        foreach (GameObject uiElement in uiElementsList)
+        if (Instance == null)
         {
-            uiElements.Add(uiElement.name, uiElement);
-        }
-    }
-    // Enable UI based on the UI name
-    public void EnableUI(string uiName)
-    {
-        if (uiElements.TryGetValue(uiName, out GameObject uiElement))
-        {
-            uiElement.SetActive(true);
-            Debug.Log($"UI '{uiName}' enabled.");
-        }
-        else
-        {
-            Debug.LogWarning($"UI '{uiName}' not found.");
+            Instance = this;
         }
     }
 
-    // Disable UI based on the UI name
-    public void DisableUI(string uiName)
+    private void Start()
     {
-        if (uiElements.TryGetValue(uiName, out GameObject uiElement))
-        {
-            uiElement.SetActive(false);
-            Debug.Log($"UI '{uiName}' disabled.");
-        }
-        else
-        {
-            Debug.LogWarning($"UI '{uiName}' not found.");
-        }
+        // Game starts with the Start Screen
+        startScreenUI.ShowStartScreen();
+    }
+   
+
+    public void ShowInstructionScreen()
+    {
+        startScreenUI.gameObject.SetActive(false);
+        instructionScreenUI.gameObject.SetActive(true);
+        hudUI.gameObject.SetActive(true);
+    }
+
+
+    public void UpdateTurnUI(int turnNumber)
+    {
+        // Logic to update the Turn UI based on the current turn
+        turnUI.SetTurnData(turnNumber);
+    }
+
+    public void ShowTurnUI(int turnNumber)
+    {
+        instructionScreenUI.gameObject.SetActive(false);
+        turnUI.gameObject.SetActive(true);
+        UpdateTurnUI(turnNumber);
+    }
+
+    public void ShowResourceAllocationUI(int currentTurn)
+    {
+        turnUI.gameObject.SetActive(false);
+        resourceAllocationUI.gameObject.SetActive(true);
+    }
+
+    public void ShowResourceAllocationOverviewUI()
+    {
+        resourceAllocationUI.gameObject.SetActive(false);
+        resourceAllocationOverviewUI.gameObject.SetActive(true);
+    }
+
+    public void ShowResultUI()
+    {
+        resourceAllocationOverviewUI.gameObject.SetActive(false);
+        resultUI.gameObject.SetActive(true);
+    }
+
+    public void ShowPostResultUI()
+    {
+        resultUI.gameObject.SetActive(false);
+        postResultUI.gameObject.SetActive(true);
+    }
+
+    public void NextTurnUI()
+    {
+        postResultUI.gameObject.SetActive(false);
+        instructionScreenUI.gameObject.SetActive(true);
     }
 }
+

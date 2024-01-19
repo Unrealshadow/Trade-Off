@@ -5385,7 +5385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 166913269090992857}
   - component: {fileID: 3180130852603581881}
-  - component: {fileID: 8548334737994876276}
+  - component: {fileID: 6317869272464570584}
   m_Layer: 5
   m_Name: ResourceAllocationOverview
   m_TagString: Untagged
@@ -5421,7 +5421,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5377534494327518240}
   m_CullTransparentMesh: 1
---- !u!114 &8548334737994876276
+--- !u!114 &6317869272464570584
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5430,12 +5430,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5377534494327518240}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0362f40eafa097c40be72529684606c3, type: 3}
+  m_Script: {fileID: 11500000, guid: 4bd4873065b7055459fca4a0b7f229f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
-  resourceManager: {fileID: 0}
-  uiManager: {fileID: 0}
+  gameData: {fileID: 11400000, guid: 7fc80d2baceaf48409172abcd062cb68, type: 2}
   growthRateImg:
   - {fileID: 5458809336683338662}
   - {fileID: 4449192290293356336}

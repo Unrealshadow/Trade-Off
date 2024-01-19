@@ -5429,7 +5429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4511755685789599837}
   - component: {fileID: 5445575418794913836}
-  - component: {fileID: 4670684063546721159}
+  - component: {fileID: 3424740379346771902}
   m_Layer: 5
   m_Name: ResourceAllocation
   m_TagString: Untagged
@@ -5466,7 +5466,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6456148051613388126}
   m_CullTransparentMesh: 1
---- !u!114 &4670684063546721159
+--- !u!114 &3424740379346771902
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5475,13 +5475,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 6456148051613388126}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bdcf552aeeb26f4b997788d6c76ad8d, type: 3}
+  m_Script: {fileID: 11500000, guid: 40ee6d96309c3dd4493d733f6a44d0f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
-  resourceManager: {fileID: 0}
-  uiManager: {fileID: 0}
-  dataResourceAllocation: {fileID: 11400000, guid: 426451ed27fee9f498804ba0259c5d33, type: 2}
+  gameData: {fileID: 11400000, guid: 7fc80d2baceaf48409172abcd062cb68, type: 2}
+  incrementMeetingGrowthRateButton: {fileID: 1461298302056113384}
+  decrementMeetingGrowthRateButton: {fileID: 1763270900329839815}
+  incrementSocialResponsibilityButton: {fileID: 3809601665313046328}
+  decrementSocialResponsibilityButton: {fileID: 2666667539012171013}
+  incrementEnvironmentalResponsibilityButton: {fileID: 4609841429707036233}
+  decrementEnvironmentalResponsibilityButton: {fileID: 1954505143604806128}
+  incrementLongTermDevelopmentButton: {fileID: 5710460796605864732}
+  decrementLongTermDevelopmentButton: {fileID: 6892839518131219195}
+  iAmDoneBtn: {fileID: 2370883971307233905}
+  meetingGrowthRateText: {fileID: 3210213286159379248}
+  socialResponsibilityText: {fileID: 3824993901115957600}
+  environmentalResponsibilityText: {fileID: 160910353317089624}
+  longTermDevelopmentText: {fileID: 5775604795210058052}
   allocatedResourcesImg:
   - {fileID: 1045320323731034327}
   - {fileID: 2612764949943190211}
@@ -5493,19 +5503,6 @@ MonoBehaviour:
   - {fileID: 661938253447607217}
   - {fileID: 8119168733082796947}
   - {fileID: 1238108952190542186}
-  nextBtn: {fileID: 2370883971307233905}
-  growthValueText: {fileID: 3210213286159379248}
-  environmentalValueText: {fileID: 160910353317089624}
-  socialValueText: {fileID: 3824993901115957600}
-  longTermValueText: {fileID: 5775604795210058052}
-  addGrowthRateBtn: {fileID: 1461298302056113384}
-  subGrowthRateBtn: {fileID: 1763270900329839815}
-  addEnvironmentalBtn: {fileID: 4609841429707036233}
-  subEnvironmentalBtn: {fileID: 1954505143604806128}
-  addSocialBtn: {fileID: 3809601665313046328}
-  subSocialBtn: {fileID: 2666667539012171013}
-  addLongTermBtn: {fileID: 5710460796605864732}
-  subLongTermBtn: {fileID: 6892839518131219195}
 --- !u!1 &6523874391197199979
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc76a3c44b161f94c9e869ba3e915464, type: 3}
+  m_Name: InstructionData
+  m_EditorClassIdentifier: 
+  instructions:
+  - instructionDetails:
+    - description: You are the charismatic founder and chief executive of FlexBird,
+        a technology company preparing for an initial public offering.
+      subtitle: '
+
+        As CEO, you will have to satisfy your investors by meeting
+        quarterly targets to grow the business.
+
+
+        Your investors start with
+        an approval score of 5.'
+      illustration: {fileID: 21300000, guid: 3339e2a8ca1910346b23fe659df20369, type: 3}
+      subDescription: If their approval score falls to 0, you will lose the game.
+    - description: Businesses are increasingly under pressure to do more than just
+        make money for their shareholders.
+      subtitle: "\nYou also have other stakeholders \u2014 your customers, workers,
+        suppliers and the larger community \u2014 that you will have to keep happy.\r\n\r\nYour
+        stakeholders start with an approval score of 5."
+      illustration: {fileID: 21300000, guid: 860ebfc61c1366548bd6c20dc8841293, type: 3}
+      subDescription: If their approval score falls to 0, you will also lose the
+        game.
+    - description: You are going to have to balance profit and purpose as you lead
+        FlexBird over the next four years.
+      subtitle: '
+
+        Do you prioritize meeting short-term growth targets, or
+        will you take a longer view? What about saving the planet, or doing right
+        by your employees and society at large?'
+      illustration: {fileID: 0}
+      subDescription: 
+    - description: You start with 10 resources, which represent the time, money and
+        managerial energy available to you.
+      subtitle: 
+      illustration: {fileID: 21300000, guid: 58db443c8b119c44fb34f93f4ca9afbb, type: 3}
+      subDescription: In each round of the game, you will allocate these resources
+        to indicate what FlexBird will focus on in the next year.
+  - instructionDetails:
+    - description: Because of the recession, you have two fewer resources, which
+        will mean taking some hard decisions.
+      subtitle: You will allocate these resources to indicate what you will focus
+        on in the next year.
+      illustration: {fileID: 21300000, guid: 58db443c8b119c44fb34f93f4ca9afbb, type: 3}
+      subDescription: 
+    - description: 
+      subtitle: 
+      illustration: {fileID: 0}
+      subDescription: 
+    - description: 
+      subtitle: 
+      illustration: {fileID: 0}
+      subDescription: 
+    - description: 
+      subtitle: 
+      illustration: {fileID: 0}
+      subDescription: 
+  - instructionDetails: []
+  - instructionDetails: []

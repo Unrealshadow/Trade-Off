@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43c4743bd1e7674691fd565e948a4f7, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  gameColors:
+    turnActiveColor: {r: 0.101960786, g: 0.9254902, b: 1, a: 1}
+    turnInactiveColor: {r: 0, g: 0.49019608, b: 0.5254902, a: 1}
+    turnTextColor: {r: 0.105882354, g: 0.72156864, b: 0.80784315, a: 1}
+    meetingGrowthRate: {r: 0.95686275, g: 0.5058824, b: 0.34509805, a: 1}
+    socialResponsibility: {r: 1, g: 0.85882354, b: 0.3882353, a: 1}
+    environmentalResponsibility: {r: 0.3647059, g: 0.70980394, b: 0.16862746, a: 1}
+    longTermDevelopment: {r: 0.1254902, g: 0.4745098, b: 0.75686276, a: 1}
+    resourceNotAllocated: {r: 0.3254902, g: 0.33333334, b: 0.34901962, a: 1}

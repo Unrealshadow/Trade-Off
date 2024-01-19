@@ -786,7 +786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6362857604262863379}
   - component: {fileID: 1983238132482882299}
-  - component: {fileID: 578171297731060450}
+  - component: {fileID: 5767331200947641092}
   m_Layer: 5
   m_Name: Turn
   m_TagString: Untagged
@@ -823,7 +823,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4326748252908781215}
   m_CullTransparentMesh: 1
---- !u!114 &578171297731060450
+--- !u!114 &5767331200947641092
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -832,21 +832,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 4326748252908781215}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 880480fb6839aee469038e08b52d520b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b5c1f4cb6daa234b8530fc7b2a4edff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uIManager: {fileID: 0}
-  gameManager: {fileID: 0}
-  spriteAtlas: {fileID: 100100200, guid: 453a46c3c6fd1fb4a872e91aef64accc, type: 3}
-  title: {fileID: 924510267875127765}
-  desc: {fileID: 4514076109449674119}
-  subtitle: {fileID: 7829061826167250007}
-  subDesc: {fileID: 1833611782272134974}
-  turnIndicators: {fileID: 4944215189737104881}
-  illustration: {fileID: 5813614897708909629}
-  nextBtn: {fileID: 8485330981988630269}
-  dataTurn: {fileID: 11400000, guid: 12d3b76416908c94a8206fa09a29ff28, type: 2}
-  dataColor: {fileID: 11400000, guid: bb3809538dd813349a77d2ff1a5c4f09, type: 2}
+  gameData: {fileID: 11400000, guid: 7fc80d2baceaf48409172abcd062cb68, type: 2}
+  turnData: {fileID: 11400000, guid: e98464847b62e32468ef56542251b1f6, type: 2}
+  turnNumberText: {fileID: 924510267875127765}
+  turnDescriptionText: {fileID: 4514076109449674119}
+  turnSubtitleText: {fileID: 7829061826167250007}
+  turnIndicatorParent: {fileID: 4944215189737104881}
+  turnIllustration: {fileID: 5813614897708909629}
+  turnSubDescriptionText: {fileID: 1833611782272134974}
+  nextButton: {fileID: 8485330981988630269}
 --- !u!1 &4895347011375390671
 GameObject:
   m_ObjectHideFlags: 0

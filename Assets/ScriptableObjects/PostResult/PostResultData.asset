@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bce9025e5dda624abc91727615c0b2a, type: 3}
+  m_Name: PostResultData
+  m_EditorClassIdentifier: 
+  postResultTurnData:
+  - headerText: WHAT DO YOU DO?
+    desc: 'The debate started from a single question posted on the internal messaging
+      board:
+
+      "Why is FlexBird complicit in oppressing migrants?"'
+    desc_1: '
+
+      The thread questioning one of FlexBird''s government contracts
+      soon grows into an outcry, with employees saying that it goes against FlexBird''s
+      values.
+
+
+      What do you do?'
+    desc_2: 
+    investorText: Investor
+    stakeHolderText: Stakeholder
+    investorValue: 0
+    stakeHolderValue: 0
+    responseData:
+      keepTheContract: 'You respond with an internal memo that explains why FlexBird
+        cannot only accept business from some clients but not others.
+
+
+        37%
+        of players did the same.
+
+
+        Your memo fails to quell the outcry, which
+        soon snowballs into a staff walk-out and a #FlexBirdOut social media campaign. '
+      cancelTheContract: 'Your responsiveness wins the admiration of some of your
+        staff, but losing the contract means you will have to take a writedown next
+        quarter.
+
+
+        Your investors are not happy.
+
+
+        63% of players
+        did the same.'
+      keepInvestorValue: 0
+      keepStakeHolderValue: -1
+      cancelInvestorValue: -1
+      cancelStakeHolderValue: 0.5
+    finalResultData:
+      headerText: THE CHALLENGE
+      desc: 'FlexBird is just getting its footing as a public company when trade
+        wars break out.
+
+
+        The economy slides into recession. Customers are
+        pulling back and employees are nervous.'
+      desc_1: '
+
+'
+      desc_2: 
